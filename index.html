@@ -1,0 +1,173 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Molafan</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./java/custom.js"></script>
+    <script src="./java/molafan.js"></script>
+</head>
+<body>
+
+    
+    <!--PRELOADER-->
+
+    <div class="z-50" id='preloader'>
+        <img src="./images/preloader.gif" alt="preloader">
+    </div>
+
+    <!--PRELOADER-->
+
+
+
+
+
+    <!--COOKIE ALERT-->
+
+    <div class="alert-footer w-full fixed bottom-0 z-40">
+        <input type="checkbox" class="hidden" id="footeralert">
+    
+        <div class="flex items-center justify-between w-full p-2 bg-gray-500 shadow text-white">
+          <p>Notre site utilise un Cookie. <a href="https://wikipedia.org/wiki/Cookie" class="underline"> En savoir plus sur Cookie</a></p>
+          
+          <label class="close cursor-pointer" title="close" for="footeralert">
+            <svg class="fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+              <path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"></path>
+            </svg>
+          </label>
+        </div>
+      </div>
+
+    <!--COOKIE ALERT-->
+
+
+
+    <header class="flex flex-wrap items-center justify-between px-12 h-32 -mb-32 relative">
+
+        <ul class="order-last md:order-first flex-1 flex justify-center md:justify-start list-reset">
+            <li>
+                <a href="./index.html" class="text-xl text-gray-800 no-underline hover:text-black">Domicile</a>
+            </li>
+            <li class="ml-8">
+                <a href="./priv_policy.html" class="text-xl text-gray-800 no-underline hover:text-black">Politique de confidentialité</a>
+            </li>
+            <li class="ml-8">
+                <a href="./cont-form.html" class="text-xl text-gray-800 no-underline hover:text-black">Contacter</a>
+            </li>
+        </ul>
+        
+        <div class="w-full md:w-auto flex justify-center">
+            <a href="./index.html" class="block text-center text-gray-800 text-lg no-underline text-3xl font-bold">
+              Molafan
+            </a>
+        </div>
+
+        <ul class="flex-1 flex justify-center md:justify-end list-reset">
+            <li class="ml-8 hidden md:inline">
+                <a href="./index.html" class="text-xl font-bold px-4 py-3 no-underline text-white bg-black hover:bg-gray-800">Abonnez-vous maintenant</a>
+            </li>
+        </ul>
+
+    </header>
+
+
+
+
+
+    <div class="w-full flex flex-wrap md:h-4/6 pt-32">
+        <div class="pt-6 md:pt-0 w-full md:flex-1 md:order-last">
+            <img src="./images/main-backgrd.jpg" class="w-full h-64 md:h-full object-cover" />
+        </div>
+        <div class="w-full p-6 pb-12 md:p-12 md:w-5/12 flex justify-center items-center relative">
+            <div class="w-full relative text-center py-12 px-12 md:p-0 md:text-right">
+                <h1 class="text-5xl mb-4">Molafan</h1>
+                <h2 class="text-2xl mb-4">Le meilleur blog sur les secrets des relations et les règles pour une rencontre réussie entre hommes et femmes</h2>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <section class="text-Gray-700 mt-36">
+        <div class="container flex flex-col items-start px-5 py-16 mx-auto lg:items-center md:flex-row lg:px-28">
+          <div class="w-full mb-10 lg:w-5/6 lg:max-w-lg md:w-1/2">
+            <img class="object-cover object-center rounded" alt="hero" loading="lazy" src="./images/mail-ph.jpg">
+          </div>
+          <div class="flex flex-col items-start text-left lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16">
+            <h1 class="mb-8 text-2xl font-bold tracking-tighter text-black lg:text-left lg:text-5xl title-font">Obtenez des nouvelles sur notre blog</h1>
+            <div class="flex flex-col w-full gap-2 md:justify-start md:flex-row">
+              <input class="flex-grow w-full px-4 py-3 mb-4 text-base text-black transition ease-in-out transform rounded-lg duration-650 lg:w-auto bg-Gray-200 focus:outline-none focus:border-gray-500 sm:mb-0 focus:bg-white focus:shadow-outline focus:ring-2 ring-offset-current ring-offset-2" placeholder="Votre email" type="email">
+              <button class="flex items-center px-6 py-3 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-black rounded-lg focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"> S'abonner </button>
+            </div>
+            <p class="w-full mt-2 mb-8 text-sm text-left text-blueGray-600">Obtenir des notifications à la poste sur les nouveaux articles et conseils</p>
+          </div>
+        </div>
+      </section>
+
+
+
+
+    <section class="w-full flex flex-col items-center px-3 z-20">
+
+        <div class="grid grid-cols-3 bg-black mt-96 mb-96 z-20">
+			<a href="./1_page.html" class="bg-black relative block flex items-center justify-center h-72 font-heading text-white uppercase tracking-widest hover:opacity-75">
+				<h2 class="relative z-10">Quel effet à internet sur les chances de trouver l’amour ?</h2>
+				<img src="./images/b_1.jpg" class="absolute inset-0 w-full h-full object-cover opacity-50" />
+			</a>
+			<a href="./2_page.html" class="bg-black relative block flex items-center justify-center h-72 font-heading text-white uppercase tracking-widest hover:opacity-75">
+				<h2 class="relative z-10">Rencontre avec une femme mariée : bonne ou mauvaise idée ?</h2>
+				<img src="./images/b_2.jpg" class="absolute inset-0 w-full h-full object-cover opacity-50" />
+			</a>
+			<a href="./3_page.html" class="bg-black relative block flex items-center justify-center h-72 font-heading text-white uppercase tracking-widest hover:opacity-75">
+				<h2 class="relative z-10">La règle d’or pour le jeu des rencontres</h2>
+				<img src="./images/b_3.jpg" class="absolute inset-0 w-full h-full object-cover opacity-50" />
+			</a>
+		</div>
+
+    </section>
+
+
+
+
+
+    <footer class="footer bg-white relative pt-1 border-b-2 border-gray-700 mt-10 bg-gray-500">
+        <div class="container mx-auto px-6">
+    
+            <div class="sm:flex sm:mt-8">
+                <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
+                    <div class="flex flex-col">
+                        <span class="font-bold text-black uppercase mb-2">Navigation rapide</span>
+                        <span class="my-2"><a href="./index.html" class="text-black  text-md">Domicile</a></span>
+                        <span class="my-2"><a href="./priv_policy.html" class="text-black  text-md">Politique de confidentialité</a></span>
+                        <span class="my-2"><a href="./cont-form.html" class="text-black  text-md">Contacter</a></span>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="font-bold text-black uppercase mt-4 md:mt-0 mb-2">Liens sociaux</span>
+                        <span class="my-2"><a href="https://twitter.com" class="text-black text-md transition duration-500 hover:text-blue-500">Twitter</a></span>
+                        <span class="my-2"><a href="https://facebook.com" class="text-black  text-md transition duration-500 hover:text-blue-700">Facebook</a></span>
+                        <span class="my-2"><a href="https://instagram.com" class="text-black text-md transition duration-500 hover:text-red-500">Instagram</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto px-6">
+            <div class="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
+                <div class="sm:w-2/3 text-center py-6">
+                    <p class="text-sm text-black font-bold mb-2">
+                        © 2021 Molafan | Tous les droits sont réservés
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+</body>
+</html>
